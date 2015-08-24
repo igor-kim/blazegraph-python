@@ -40,8 +40,7 @@ Documentation
 
 Generating a local copy of the documentation requires Sphinx:
 
-::
-
-    $ easy_install Sphinx
-
+```
+$ easy_install Sphinx
+```
 
