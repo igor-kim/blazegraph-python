@@ -9,6 +9,8 @@ Quick Start
 ```python
 from pymantic import sparql
 
+server = sparql.SPARQLServer('http://127.0.0.1:9999/bigdata/sparql')
+
 # Loading data to Blazegraph
 server.update('load <file:///tmp/data.n3>')
 
